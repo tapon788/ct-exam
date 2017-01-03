@@ -50,15 +50,15 @@ body {
      overflow-x: hidden;
 }
 
-.no-padding {
+.zero-padding {
     padding: 0;
 }
 
-.no-padding-left {
+.zero-padding-left {
     padding-left: 0;
 }
 
-.no-padding-right {
+.zero-padding-right {
     padding-right: 0;
 }
 .row-separator{
@@ -92,7 +92,7 @@ body {
 
 /*Navigation Top Menus*/
 
-.nav-top {
+.top {
     width: 100%;
     height: 50px;
     background: #f4f4f4;
@@ -100,16 +100,58 @@ body {
     top: 0;
     position: fixed;
 }
-.nav-top a{
+.top a{
     line-height: 50px;
     text-decoration: none;
     color: #999898;
     font-family: Arial,sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bold;
+    
 }
-.nav-top a:hover{
+.top a:hover{
+text-decoration: underline;
+}
 
+.sliding-u-l-r-l {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+
+.sliding-u-l-r-l:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    transition: width 0s ease, background .5s ease;
+}
+
+.sliding-u-l-r-l:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background: #000;
+    transition: width .5s ease;
+}
+
+.sliding-u-l-r-l:hover:before {
+    width: 100%;
+    background: #000;
+    transition: width .5s ease;
+}
+
+.sliding-u-l-r-l:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
 }
 
 .navbar-fixed-top {
@@ -255,11 +297,11 @@ ul.list-inline.pull-right {
 
 /*Banner Section*/
 
-.banner {
+.slider {
 
     width: 100%;
     min-height: 200px;
-    padding: 20px 0;
+    padding: 15px 0;
 
 }
 
@@ -384,7 +426,7 @@ ul.list-inline.pull-right {
 }
 
 .about-us-box a{
-    text-decoration: none;
+ 
     color:#fe9b00;
 }
 
@@ -469,15 +511,15 @@ ul.list-inline.pull-right {
 
 
 /* =============== */
-.blog-updates{
+.latest-blogs{
     width: 100%;
     min-height: 180px;
     padding: 20px 0;
 }
-.blog-updates .container{
+.latest-blogs .container{
     border-top: 1px solid #c0c0c0;
 }
-.blog-update-box{
+.latest-blog-box{
     width: 100%;
     height: 150px;
 }
@@ -486,7 +528,7 @@ ul.list-inline.pull-right {
     font-weight: bold;
     color: #090909;
 }
-.blog-update-box p{
+.latest-blog-box p{
     color:#5d5d5d;
     font-size: 13px;
     max-width: 700px;

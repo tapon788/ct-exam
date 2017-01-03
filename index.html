@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative Studio | Bootstrap Exam</title>
+    <title>Creative Studio | CT-Exam-BS</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <!-- Default Theme -->
     <link rel="stylesheet" href="css/owl.theme.css">
-    <link rel="stylesheet" href="css/theme-style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,9 +34,9 @@
 
 <body>
 
-    <!--Navigation Section-->
-    <section>
-        <div class="nav-top">
+    <!--HEADER START-->
+    <header>
+        <div class="top">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-md-push-9">
@@ -45,109 +45,110 @@
                 </div>
             </div>
         </div>
-    </section>
-    <nav class="navbar navbar-default navbar-fixed-top">
 
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
+        <nav class="navbar navbar-default navbar-fixed-top">
 
-            <div class="navbar-header">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
 
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+                <div class="navbar-header">
 
-                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" class="img-responsive" width="100%"></a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="sliding-u-l-r-l"><a href="index.html">HOME</a></li>
+                        <li class="sliding-u-l-r-l"><a href="#about">ABOUT US</a></li>
+                        <li class="sliding-u-l-r-l"><a href="#portfolio">PORTFOLIO</a></li>
+                        <li class="sliding-u-l-r-l"><a href="#blog">SERVICES</a></li>
+                        <li class="sliding-u-l-r-l"><a href="#blog">BLOG</a></li>
+                        <li class="sliding-u-l-r-l"><a href="#contact">CONTACT US</a></li>
+
+                    </ul>
+
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <!--HEADER ENDS-->
 
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">HOME</a></li>
-                    <li><a href="#">ABOUT US</a></li>
-                    <li><a href="#">PORTFOLIO</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">CONTACT US</a></li>
-
-                </ul>
-
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-    <!--End Navigation Section-->
-
-
-    <section class="banner">
-        <div class="container no-padding">
+    <!--BANNER START-->
+    <section class="slider">
+        <div class="container zero-padding">
             <!---->
             <div class="owl-slider">
                 <div id="owl-banner" class="owl-carousel ">
-                    <div> 
+                    <div>
                         <div class="banner-slider">
-                            <div class="row">               
-                                 <div class="slider">
-                                     <div class="col-md-6">
+                            <div class="row">
+                                <div class="slider">
+                                    <div class="col-md-6">
                                         <h1>CREATIVE<br>DESIGN<br>SERVICES</h1>
-                                       
+
                                         <div class="row">
                                             <div class="view-portfolio-box-container">
-                                                <div class="col-xs-6 no-padding-left">
+                                                <div class="col-xs-6 zero-padding-left">
                                                     <span>HERE'S SOME NICE WORK</span>
-                                               </div>
-                                               <div class="col-xs-6 no-padding-right">
-                                                  <div class="view-portfolio-box text-right">
-                                                       <a href="#">VIEW PORTFOLIO <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                                                  </div>
-                                               </div>
+                                                </div>
+                                                <div class="col-xs-6 zero-padding-right">
+                                                    <div class="view-portfolio-box text-right">
+                                                        <a href="#">VIEW PORTFOLIO <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                     
-                                     <div class="col-md-6">
-                                         <div class="slider-box">
-                                             <img src="images/slide_image2.png" alt="" class="right-banner-img img-responsive">
-                                             <img src="images/slide_image1.png" alt="" class="right-banner-img-2 img-responsive">
-                                         </div>
-                                     </div>
-                                 </div>
+
+                                    <div class="col-md-6">
+                                        <div class="slider-box">
+                                            <img src="images/slide_image2.png" alt="" class="right-banner-img img-responsive">
+                                            <img src="images/slide_image1.png" alt="" class="right-banner-img-2 img-responsive">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div> 
-                    <div> 
+                    </div>
+                    <div>
                         <div class="banner-slider">
-                            <div class="row">               
-                                 <div class="slider">
-                                     <div class="col-md-6">
+                            <div class="row">
+                                <div class="slider">
+                                    <div class="col-md-6">
                                         <h1>CREATIVE<br>DESIGN<br>SERVICES</h1>
-                                       
+
                                         <div class="row">
                                             <div class="view-portfolio-box-container">
-                                                <div class="col-xs-6 no-padding-left">
+                                                <div class="col-xs-6 zero-padding-left">
                                                     <span>HERE'S SOME NICE WORK</span>
-                                               </div>
-                                               <div class="col-xs-6 no-padding-right">
-                                                  <div class="view-portfolio-box text-right">
-                                                       <a href="#">VIEW PORTFOLIO <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                                                  </div>
-                                               </div>
+                                                </div>
+                                                <div class="col-xs-6 zero-padding-right">
+                                                    <div class="view-portfolio-box text-right">
+                                                        <a href="#">VIEW PORTFOLIO <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                     
-                                     <div class="col-md-6">
-                                         <div class="slider-box">
-                                             <img src="images/slide_image1.png" alt="" class="right-banner-img img-responsive">
-                                             <img src="images/slide_image2.png" alt="" class="right-banner-img-2 img-responsive">
-                                         </div>
-                                     </div>
-                                 </div>
+
+                                    <div class="col-md-6">
+                                        <div class="slider-box">
+                                            <img src="images/slide_image1.png" alt="" class="right-banner-img img-responsive">
+                                            <img src="images/slide_image2.png" alt="" class="right-banner-img-2 img-responsive">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -156,10 +157,13 @@
         </div>
     </section>
 
-    <section class="about-us">  
+    <!--BANNER ENDS-->
+
+    <!--ABOUT START-->
+    <section id="about" class="about-us">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 no-padding-left media-padding">
+                <div class="col-md-4 zero-padding-left media-padding">
                     <div class="about-us-box">
                         <h3><i class="fa fa-arrow-right" aria-hidden="true"></i> ABOUT US</h3>
                         <span class="box-bar"></span>
@@ -203,7 +207,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 no-padding-right media-padding">
+                <div class="col-md-4 zero-padding-right media-padding">
                     <div class="about-us-box">
                         <h3><i class="fa fa-arrow-right" aria-hidden="true"></i> TESTIMONIALS</h3>
                         <span class="box-bar"></span>
@@ -217,72 +221,77 @@
         </div>
     </section>
 
-    <section class="portfolio">
-        <div class="container no-padding media-padding">
-        <h3><i class="fa fa-arrow-right" aria-hidden="true"></i> OUR PORTFOLIO</h3>
+    <!--ABOUT ENDS-->
+    <!--PORTFOLIO START-->
 
-        <div class="row">
-            <div class="col-md-3">
-                <div class="portfolio-box">
-                    <img src="images/portfolio1.png" alt="portfolio" class="img-responsive" width="100%">
+    <section id="portfolio" class="portfolio">
+        <div class="container zero-padding media-padding">
+            <h3><i class="fa fa-arrow-right" aria-hidden="true"></i> OUR PORTFOLIO</h3>
 
-                    <a href="#" class="btn btn-default btn-view">View  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="portfolio-box">
+                        <img src="images/portfolio1.png" alt="portfolio" class="img-responsive" width="100%">
+
+                        <a href="#" class="btn btn-default btn-view">View  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="portfolio-box">
+                        <img src="images/portfolio2.png" alt="portfolio" class="img-responsive" width="100%">
+                        <a href="#" class="btn btn-default btn-view">View  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="portfolio-box">
+                        <img src="images/portfolio3.png" alt="portfolio" class="img-responsive" width="100%">
+                        <a href="#" class="btn btn-default btn-view">View  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="portfolio-box">
+                        <img src="images/portfolio4.png" alt="portfolio" class="img-responsive" width="100%">
+                        <a href="#" class="btn btn-default btn-view">View  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="portfolio-box">
-                    <img src="images/portfolio2.png" alt="portfolio" class="img-responsive" width="100%">
-                    <a href="#" class="btn btn-default btn-view">View  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="portfolio-box">
-                    <img src="images/portfolio3.png" alt="portfolio" class="img-responsive" width="100%">
-                    <a href="#" class="btn btn-default btn-view">View  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="portfolio-box">
-                    <img src="images/portfolio4.png" alt="portfolio" class="img-responsive" width="100%">
-                    <a href="#" class="btn btn-default btn-view">View  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div>
         </div>
     </section>
-    
-    <section class="blog-updates">
-        <div class="container no-padding media-padding">
+    <!--PORTFOLIO ENDS-->
+    <!--BOLG START-->
+
+    <section id="blog" class="latest-blogs">
+        <div class="container zero-padding media-padding">
             <div class="row">
                 <div class="col-md-9">
-                    <div class="blog-update-box">
+                    <div class="latest-blog-box">
                         <h3 class="blog-title"><i class="fa fa-arrow-right" aria-hidden="true"></i>  BLOG UPDATES</h3>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis scelerisque. Praesent eget consequat libero. </p>
                     </div>
-            
+
                 </div>
                 <div class="col-md-3">
                     <div class="row">
                         <h3 class="social-title media-padding"><i class="fa fa-arrow-right" aria-hidden="true"></i>  CONNECT WITH US</h3>
-                        <div class="col-xs-3 no-padding-left media-padding">
+                        <div class="col-xs-3 zero-padding-left media-padding">
                             <div class="connect-box">
-                               <a href="www.facebook.com"> <img src="images/twitter.png" alt="twitter" class="img-responsive pull-left"></a>
+                                <a href="www.facebook.com"> <img src="images/twitter.png" alt="twitter" class="img-responsive pull-left"></a>
                             </div>
                         </div>
-                        <div class="col-xs-3 no-padding-left media-padding">
+                        <div class="col-xs-3 zero-padding-left media-padding">
                             <div class="connect-box">
                                 <a href="#"><img src="images/facebook.png" alt="facebook" class="img-responsive"></a>
                             </div>
                         </div>
-                        <div class="col-xs-3 no-padding-left media-padding">
+                        <div class="col-xs-3 zero-padding-left media-padding">
                             <div class="connect-box">
-                               <a href="#"> <img src="images/flickr.png" alt="flickr" class="img-responsive"></a>
+                                <a href="#"> <img src="images/flickr.png" alt="flickr" class="img-responsive"></a>
                             </div>
                         </div>
-                        <div class="col-xs-3 no-padding-left media-padding">
+                        <div class="col-xs-3 zero-padding-left media-padding">
                             <div class="connect-box">
-                                <a href="#"><img src="images/rss.png" alt="rss" class="img-responsive" ></a>
+                                <a href="#"><img src="images/rss.png" alt="rss" class="img-responsive"></a>
                             </div>
                         </div>
                     </div>
@@ -290,22 +299,25 @@
             </div>
         </div>
     </section>
-    
-    <footer class="footer">
-        <div class="container no-padding">
+    <!--BOLG ENDS-->
+
+    <!--FOOTER STARTS-->
+
+    <footer id="contact" class="footer">
+        <div class="container zero-padding">
             <div class="row">
                 <div class="col-xs-8">
-                   <div class="footer-box">
+                    <div class="footer-box">
                         <ul class="list-inline footer-nav">
-                        <li><a href="#">Home</a>|</li>
-                        <li><a href="#">About Us</a>|</li>
-                        <li><a href="#">Portfolio</a>|</li>
-                        <li><a href="#">Services</a>|</li>
-                        <li><a href="#">Blog</a>|</li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                    <h5>&copy;2010 CreativeStudio. All Rights Reserved</h5>
-                   </div>
+                            <li><a href="#">Home</a>|</li>
+                            <li><a href="#">About Us</a>|</li>
+                            <li><a href="#">Portfolio</a>|</li>
+                            <li><a href="#">Services</a>|</li>
+                            <li><a href="#">Blog</a>|</li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                        <h5>&copy;2010 CreativeStudio. All Rights Reserved</h5>
+                    </div>
 
                 </div>
                 <div class="col-xs-4">
@@ -316,10 +328,12 @@
             </div>
         </div>
     </footer>
-    
+
+    <!--FOOTER ENDS-->
 
     <!--End Footer-->
     <!-- jQuery -->
+
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -331,7 +345,10 @@
 
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/scripts.js"></script>
-   
+    
+    <script type="text/javascript" src="js/theme-script.js">
+    
+    </script>
 </body>
 
 </html>
